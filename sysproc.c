@@ -95,6 +95,10 @@ sys_date(void)
 {
   char *ptr;
   argptr(0, &ptr, sizeof(struct rtcdate*));
-  // seu código aqui
+  
+  struct rtcdate *current_date = (struct rtcdate *) ptr;
+
+  *current_date = (struct rtcdate) {06, 06, 06, 06, 06, 6666};
+
   return 0;
 }
