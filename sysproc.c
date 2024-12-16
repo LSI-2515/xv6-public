@@ -102,3 +102,21 @@ sys_date(void)
 
   return 0;
 }
+
+int
+sys_virt2real(void)
+{
+  
+}
+
+int
+sys_numpages(void)
+{
+
+}
+
+int
+sys_forkcow(void)
+{
+
+}
